@@ -1,0 +1,28 @@
+.logo {
+  height: 1.895rem;
+  width: 8.438rem;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.logo img {
+  height: 1.895rem;
+  width: 8.438rem;
+}
+
+@media screen and (max-width: 600px) {
+  .logo {
+    height: 4.036rem;
+    width: 1.48vw;
+    padding-left: 1.25rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 1.895rem;
+    width: 8.438rem;
+  }
+}
